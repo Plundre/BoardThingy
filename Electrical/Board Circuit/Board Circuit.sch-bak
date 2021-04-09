@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:L L?
+U 1 1 60702854
+P 8000 3250
+F 0 "L?" H 8053 3296 50  0000 L CNN
+F 1 "L" H 8053 3205 50  0000 L CNN
+F 2 "" H 8000 3250 50  0001 C CNN
+F 3 "~" H 8000 3250 50  0001 C CNN
+	1    8000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 60706EBC
+P 7400 1750
+F 0 "Q?" H 7605 1796 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 7605 1705 50  0000 L CNN
+F 2 "" H 7600 1850 50  0001 C CNN
+F 3 "~" H 7400 1750 50  0001 C CNN
+	1    7400 1750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 6070C60F
+P 7400 4250
+F 0 "Q?" H 7604 4296 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 7604 4205 50  0000 L CNN
+F 2 "" H 7600 4350 50  0001 C CNN
+F 3 "~" H 7400 4250 50  0001 C CNN
+	1    7400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 6070FE54
+P 8400 4750
+F 0 "Q?" H 8605 4796 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 8605 4705 50  0000 L CNN
+F 2 "" H 8600 4850 50  0001 C CNN
+F 3 "~" H 8400 4750 50  0001 C CNN
+	1    8400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 60715273
+P 8400 2250
+F 0 "Q?" H 8604 2296 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 8604 2205 50  0000 L CNN
+F 2 "" H 8600 2350 50  0001 C CNN
+F 3 "~" H 8400 2250 50  0001 C CNN
+	1    8400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6072DD85
+P 8500 3850
+F 0 "D?" V 8454 3930 50  0000 L CNN
+F 1 "D" V 8545 3930 50  0000 L CNN
+F 2 "" H 8500 3850 50  0001 C CNN
+F 3 "~" H 8500 3850 50  0001 C CNN
+	1    8500 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6072E696
+P 7500 2650
+F 0 "D?" V 7546 2570 50  0000 R CNN
+F 1 "D" V 7455 2570 50  0000 R CNN
+F 2 "" H 7500 2650 50  0001 C CNN
+F 3 "~" H 7500 2650 50  0001 C CNN
+	1    7500 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 1950 7500 2500
+Wire Wire Line
+	7500 2800 7500 3000
+Wire Wire Line
+	7500 3000 8000 3000
+Wire Wire Line
+	8000 3000 8000 3100
+Wire Wire Line
+	8000 3400 8000 3500
+Wire Wire Line
+	8000 3500 7500 3500
+Wire Wire Line
+	7500 3500 7500 4050
+Wire Wire Line
+	8500 2450 8500 3000
+Wire Wire Line
+	8500 3000 8000 3000
+Connection ~ 8000 3000
+Wire Wire Line
+	8500 3700 8500 3500
+Wire Wire Line
+	8500 3500 8000 3500
+Connection ~ 8000 3500
+Wire Wire Line
+	8500 4550 8500 4000
+$Comp
+L Device:R R?
+U 1 1 60738EA9
+P 7000 1450
+F 0 "R?" H 7070 1496 50  0000 L CNN
+F 1 "R" H 7070 1405 50  0000 L CNN
+F 2 "" V 6930 1450 50  0001 C CNN
+F 3 "~" H 7000 1450 50  0001 C CNN
+	1    7000 1450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
